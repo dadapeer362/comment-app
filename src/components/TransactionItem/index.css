@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.history-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid #000000;
+  list-style: none;
+}
+
+.button-delete {
+  border: 0;
+  background-color: transparent;
+}
+
+.delete-img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.history-item {
+  font-size: 18px;
+  font-weight: 500;
+  width: 10%;
+}
+
+.title-item {
+  color: brown;
+}
+
+.amount-item {
+  color: green;
+}
+
+.type-item {
+  color: blue;
+}
